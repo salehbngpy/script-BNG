@@ -1,7 +1,6 @@
 from rich import print as pr
 import socket
 import threading
-from translate import Translator
 import cowsay
 import os
 import requests
@@ -51,6 +50,7 @@ while True:
 
 
     if ppp == "t":
+        from translate import Translator
         while True:
             pr("[magenta]""exit -----> [green](a)[/green][red] no message is printed but it comes out)[/red]""[/magenta]")
             user = input("english to persian (e) persian to english (d)\n")
