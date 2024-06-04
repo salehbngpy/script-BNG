@@ -1,10 +1,7 @@
 cowsay
 rich
-socket
-threading
 translate
 requests
-time
 pyttsx3
 qrcode
 wikipedia
