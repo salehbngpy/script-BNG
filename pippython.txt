@@ -9,8 +9,7 @@ colorama
 pytube
 sounddevice
 soundfile
-vidstream
-cv2 
+vidstream 
 moviepy.editor
 numpy
 PIL
