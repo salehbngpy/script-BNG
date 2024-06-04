@@ -6,7 +6,6 @@ pyttsx3
 qrcode
 wikipedia
 colorama
-speech_recognition
 pytube
 sounddevice
 soundfile
