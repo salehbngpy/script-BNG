@@ -11,4 +11,4 @@ sounddevice
 soundfile
 vidstream 
 numpy
-operator
+
