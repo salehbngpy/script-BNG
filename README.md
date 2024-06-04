@@ -31,3 +31,4 @@ cd script-BNG
 ```
 python install.py
 ```
+In Android (termux), some tools may not work
