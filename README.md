@@ -1,7 +1,7 @@
 # script-BNG
 A script with various tools for doing things
 
-If the vidstream and pyautogui libraries are not installed in your Thermox, you can use the script, but some tools will not work for you.
+If the vidstream and pyautogui libraries are not installed in your termux, you can use the script, but some tools will not work for you.
 
 installing:
 ```
