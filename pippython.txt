@@ -9,6 +9,6 @@ colorama
 pytube
 sounddevice
 soundfile
-vidstream 
 numpy
+vidstream 
 pyautogui
