@@ -1,7 +1,12 @@
 # script-BNG
 A script with various tools for doing things
-installing: 
+installing:
+```
+apt install python
+```
 ```
 pip install -r pippython.txt
 ```
+```
 python BNG.py
+```
