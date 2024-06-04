@@ -9,6 +9,9 @@ apt install git
 apt install python
 ```
 ```
+cd BNG-script.zip
+```
+```
 pip install -r pippython.txt
 ```
 ```
