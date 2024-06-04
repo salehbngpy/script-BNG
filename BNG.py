@@ -7,7 +7,6 @@ import os
 import requests
 import time
 from random import randint
-import pyttsx3
 from colorama import Fore
 import qrcode
 import wikipedia
@@ -942,7 +941,7 @@ while True:
             pr("""[red]error!(Because of obscene words or something like that, it's not on Wikipedia)[/red]""")
 # ---------------------------------------------------------------------------
     elif ppp == "p":
-
+        import pyttsx3
         pr("[yellow]""write something . . . ""[/yellow]")
         try:
             t = input("")
