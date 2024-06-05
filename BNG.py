@@ -58,7 +58,7 @@ while True:
                 if user == "a":
                     break
         except:
-            print("in the android not supported or unknow erorr
+            print("in the android not supported or unknow erorr")
             elif user == "e":
                 try:
                     lll = input("write something . .\n")
