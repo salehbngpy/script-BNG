@@ -51,15 +51,11 @@ while True:
 
     if ppp == "t":
         while True:
-            try:
-                from translate import Translator
-                pr("[magenta]""exit -----> [green](a)[/green][red] no message is printed but it comes out)[/red]""[/magenta]")
-                user = input("english to persian (e) persian to english (d)\n")
-                if user == "a":
-                    break
-            except:
-                print("in the android not ssuported or unknow error")
-
+            from translate import Translator
+            pr("[magenta]""exit -----> [green](a)[/green][red] no message is printed but it comes out)[/red]""[/magenta]")
+            user = input("english to persian (e) persian to english (d)\n")
+            if user == "a":
+                break
             elif user == "e":
                 try:
                     lll = input("write something . .\n")
