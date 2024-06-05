@@ -59,30 +59,30 @@ while True:
                     break
         except:
             print("in the android not supported or unknow erorr")
-            elif user == "e":
-                try:
-                    lll = input("write something . .\n")
-                    options = Translator(from_lang="en", to_lang="persian")
-                    translate = options.translate(lll)
-                    pr(f"""[magenta]---------------------------
-                    {translate}
-            ---------------------------[/magenta]""")
-                    pr("[red]""if you use CMD copy the text and paste it somewhere!!!""[/red]")
-                    pr("[green]---------------------------------[/green]")
-                except:
-                    pr("[yellow]""There is a problem with the internet""[/yellow]")
-                if user == "a":
-                    break
-            elif user == "d":
-                try:
-                    kkk = input("write something . .\n")
-                    options = Translator(from_lang="persian", to_lang="en")
-                    translate = options.translate(kkk)
-                    print("---------------------------")
-                    pr("[yellow]"f"(: {translate}""[/yellow]")
-                    print("---------------------------")
-                except:
-                    pr("[yellow]""There is a problem with the internet""[/yellow]")
+                elif user == "e":
+                    try:
+                        lll = input("write something . .\n")
+                        options = Translator(from_lang="en", to_lang="persian")
+                        translate = options.translate(lll)
+                        pr(f"""[magenta]---------------------------
+                        {translate}
+                ---------------------------[/magenta]""")
+                        pr("[red]""if you use CMD copy the text and paste it somewhere!!!""[/red]")
+                        pr("[green]---------------------------------[/green]")
+                    except:
+                        pr("[yellow]""There is a problem with the internet""[/yellow]")
+                    if user == "a":
+                        break
+                elif user == "d":
+                    try:
+                        kkk = input("write something . .\n")
+                        options = Translator(from_lang="persian", to_lang="en")
+                        translate = options.translate(kkk)
+                        print("---------------------------")
+                        pr("[yellow]"f"(: {translate}""[/yellow]")
+                        print("---------------------------")
+                    except:
+                        pr("[yellow]""There is a problem with the internet""[/yellow]")
 
 #----------------------------------------------------------------------------
     elif ppp == "ai":
