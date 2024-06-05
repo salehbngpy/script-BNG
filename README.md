@@ -32,4 +32,7 @@ cd script-BNG
 python install.py
 ```
 In Android (termux), some tools may not work
-screenshot:![1000132638](https://github.com/salehbngpy/script-BNG/assets/171718183/6306dde1-5375-4d73-b760-e14e3ca12e9c)
+screenshot:
+
+![1000132639](https://github.com/salehbngpy/script-BNG/assets/171718183/6ed3ce20-66f5-4196-b5ac-0f99667feddc)
+
